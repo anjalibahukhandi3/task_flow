@@ -33,15 +33,3 @@ git
 3. Run the development server: `npm run dev`
    - The UI will be available at `http://localhost:5173`
 
-## GitHub Upload Instructions
-
-1. Initialize git: `git init`
-2. Add files: `git add .`
-3. Commit: `git commit -m "Initial commit: Scalable REST API & Frontend"`
-4. Create a new repository on GitHub.
-5. Link and push:
-   ```bash
-   git remote add origin <your-github-repo-url>
-   git branch -M main
-   git push -u origin main
-   ```
